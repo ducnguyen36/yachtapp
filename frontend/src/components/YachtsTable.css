@@ -1,0 +1,42 @@
+/* Add this CSS to your stylesheet or create a new .css file */
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  
+  th, td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #444; /* Darker background color for header */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #444; /* Alternate row background color */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #555; /* Alternate row background color */
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007BFF; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Button color on hover */
+  }
+  

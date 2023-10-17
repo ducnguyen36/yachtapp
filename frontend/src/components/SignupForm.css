@@ -1,0 +1,49 @@
+/* Assuming you have a CSS file for your component */
+/* You can customize these styles to match your design */
+
+form {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #444; /* Darker input background */
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #007BFF; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Button color on hover */
+  }
+  
+  /* Customize your dark theme styles as needed */
+  
